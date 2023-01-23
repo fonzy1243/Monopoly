@@ -8,24 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Fonzy\\.nuget\\packages\\": {},
-    "D:\\Visual Studio SDKs\\NuGetPackages": {}
+    "C:\\Users\\geohm\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Fonzy\\RiderProjects\\Minipoly\\Minipoly\\Minipoly.csproj",
+      "projectUniqueName": "D:\\~Default~\\Documents\\Programming\\C#\\Monopoly\\Monopoly\\Minipoly.csproj",
       "projectName": "Minipoly",
-      "projectPath": "C:\\Users\\Fonzy\\RiderProjects\\Minipoly\\Minipoly\\Minipoly.csproj",
-      "packagesPath": "C:\\Users\\Fonzy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Fonzy\\RiderProjects\\Minipoly\\Minipoly\\obj\\",
+      "projectPath": "D:\\~Default~\\Documents\\Programming\\C#\\Monopoly\\Monopoly\\Minipoly.csproj",
+      "packagesPath": "C:\\Users\\geohm\\.nuget\\packages\\",
+      "outputPath": "D:\\~Default~\\Documents\\Programming\\C#\\Monopoly\\Monopoly\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\Visual Studio SDKs\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Fonzy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\geohm\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,7 +28,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

@@ -9,7 +9,7 @@ public class Player
     {
         get => playerPos;
         set => playerPos = value;
-    }
+    } 
 
     public char PlayerToken
     {
