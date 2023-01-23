@@ -8,6 +8,8 @@ public class Player
 
     public double PlayerCash { get; set; }
 
+    private LinkedList<char> playerProperties = new LinkedList<char>();
+
     public int MovePlayer(short diceRoll)
     {   
         return PlayerPos += diceRoll;
