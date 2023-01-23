@@ -21,7 +21,7 @@ public class Board
         {' ', ' ', ' ', ' ', ' ', ' ', ' ', 'o', ' ', ' ', ' ', ' ', ' ', ' ', ' ', 'n', ' ', ' ', ' ', 'm', ' ', ' ', ' ', ' ', ' ', ' ',' ', '\n'},
     };
 
-    public void PrintBoard()
+    public void PrintBoard(double player1Cash,double player2Cash)
     {
         Console.Clear();
         foreach (var i in GameBoard)
@@ -29,6 +29,8 @@ public class Board
             // ReSharper disable once HeapView.BoxingAllocation (code as recommended by Microsoft)
             Console.Write("{0}", i);
         }
+        Console.WriteLine("\nAccount Balance: \nPlayer 1: {0}",player1Cash);
+        Console.WriteLine("Player 2: {0}",player2Cash);
     }
     
 }

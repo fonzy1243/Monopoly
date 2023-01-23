@@ -7,12 +7,20 @@ internal static class Minipoly
         var player1 = new Player
         {
             PlayerPos = 0,
-            PlayerToken = 'X'
+            PlayerToken = '1',
+            PlayerCash = 10000000.00
+        };
+        
+        var player2 = new Player
+        {
+            PlayerPos = 0,
+            PlayerToken = '1',
+            PlayerCash = 10000000.00
         };
         
         Console.WriteLine(player1.PlayerPos);
         // Console.WriteLine("Just a test");
         var board = new Board();
-        board.PrintBoard();
+        board.PrintBoard(player1.PlayerCash, player2.PlayerCash);
     }
 }
