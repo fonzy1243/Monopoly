@@ -12,5 +12,7 @@ internal static class Minipoly
         
         Console.WriteLine(player1.PlayerPos);
         Console.WriteLine("Just a test");
+        var board = new Board();
+        board.PrintBoard();
     }
 }
