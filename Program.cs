@@ -4,7 +4,13 @@ internal static class Minipoly
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        var player1 = new Player
+        {
+            PlayerPos = 0,
+            PlayerToken = 'X'
+        };
+        
+        Console.WriteLine(player1.PlayerPos);
         Console.WriteLine("Just a test");
     }
 }
