@@ -29,8 +29,8 @@ public class Board
             // ReSharper disable once HeapView.BoxingAllocation (code as recommended by Microsoft)
             Console.Write("{0}", i);
         }
-        Console.WriteLine("\nAccount Balance: \nPlayer 1: {0}",player1Cash);
-        Console.WriteLine("Player 2: {0}",player2Cash);
+        Console.WriteLine("\nAccount Balance: \nPlayer 1: {0:N}", player1Cash);
+        Console.WriteLine("Player 2: {0:N}",player2Cash);
     }
     
 }
