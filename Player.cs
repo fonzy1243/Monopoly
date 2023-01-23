@@ -5,6 +5,8 @@ public class Player
     private int playerPos;
 
     private char playerToken;
+
+    private float playerCash;
     public int PlayerPos
     {
         get => playerPos;
@@ -17,6 +19,11 @@ public class Player
         set => playerToken = value;
     }
 
+    public float PlayerCash
+    {
+        get => playerCash;
+        set => playerCash = value;
+    }
     int movePlayer(int playerPos)
     {
         
