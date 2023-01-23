@@ -24,9 +24,8 @@ public class Player
         get => playerCash;
         set => playerCash = value;
     }
-    int movePlayer(int playerPos)
-    {
-        
-        return this.playerPos;
+    public int MovePlayer(short diceRoll)
+    {   
+        return playerPos += diceRoll;
     }
 }

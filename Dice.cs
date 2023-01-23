@@ -10,9 +10,9 @@ public class Dice
         set => diceRoll = value;
     }
 
-    private void RollDice()
+    public short RollDice()
     {
         var random = new Random();
-        diceRoll = (short) random.Next(1, 7);   // 7 because the upper bound is exclusive
+        return (short) random.Next(1, 7);   // 7 because the upper bound is exclusive
     }
 }

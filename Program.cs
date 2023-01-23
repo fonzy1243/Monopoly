@@ -4,6 +4,9 @@ internal static class Minipoly
 {
     public static void Main(string[] args)
     {
+        var board = new Board();
+        var dice = new Dice();
+        
         var player1 = new Player
         {
             PlayerPos = 0,
@@ -18,9 +21,6 @@ internal static class Minipoly
             PlayerCash = 10000000.00
         };
         
-        Console.WriteLine(player1.PlayerPos);
-        // Console.WriteLine("Just a test");
-        var board = new Board();
         board.PrintBoard(player1.PlayerCash, player2.PlayerCash);
     }
 }
