@@ -9,7 +9,7 @@ internal static class Minipoly
         
         var player1 = new Player
         {
-            PlayerPos = 0,
+            PlayerPos = 1,
             PlayerToken = '1',
             PlayerCash = 10000000.00
         };
@@ -17,10 +17,10 @@ internal static class Minipoly
         var player2 = new Player
         {
             PlayerPos = 0,
-            PlayerToken = '1',
+            PlayerToken = '2',
             PlayerCash = 10000000.00
         };
         
-        board.PrintBoard(player1.PlayerCash, player2.PlayerCash);
+        board.PrintBoard(player1, player2);
     }
 }
