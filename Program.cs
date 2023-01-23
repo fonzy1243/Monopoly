@@ -1,6 +1,6 @@
 ﻿namespace Minipoly;
 
-internal class Minipoly
+internal static class Minipoly
 {
     public static void Main(string[] args)
     {
