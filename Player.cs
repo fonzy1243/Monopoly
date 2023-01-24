@@ -14,4 +14,9 @@ public class Player
     {   
         return PlayerPos += diceRoll;
     }
+
+    public ConsoleKeyInfo GetInput()
+    {
+        return Console.ReadKey();
+    }
 }

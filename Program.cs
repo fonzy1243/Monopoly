@@ -24,17 +24,25 @@ internal static class Minipoly
         
         board.PrintBoard(player1, player2);
         
-        // TODO: Uncomment and finish when done implementing game functions
-        // for (var turn = 0; !isGameOver; turn++)
-        // {
-        //     if (turn % 2 == 0)
-        //     {
-        //         // Player 1's turn
-        //     }
-        //     else
-        //     {
-        //         // Player 2's turn
-        //     }
-        // }
+        for (var turn = 1; !isGameOver; turn++)
+        {
+            ConsoleKeyInfo input;
+            
+            board.PrintBoard(player1, player2);
+            
+            if (turn % 2 != 0)
+            {
+                // Player 1's turn
+                player1.PlayerPos = player1.MovePlayer(dice.RollDice()) % 20;
+                input = player1.GetInput();
+            }
+            else
+            {
+                // Player 2's turn
+            }
+            
+            if (turn == 10)
+                isGameOver = true;
+        }
     }
 }
