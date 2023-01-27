@@ -39,10 +39,14 @@ internal static class Minipoly
             else
             {
                 // Player 2's turn
+                player2.PlayerPos = player2.MovePlayer(dice.RollDice()) % 20;
+                input = player2.GetInput();
+
+                
             }
             
-            if (turn == 10)
-                isGameOver = true;
+            // if (turn == 10)
+            //     isGameOver = true;
         }
     }
 }
